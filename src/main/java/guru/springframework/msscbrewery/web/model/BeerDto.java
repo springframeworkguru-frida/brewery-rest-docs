@@ -1,5 +1,6 @@
 package guru.springframework.msscbrewery.web.model;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -35,3 +36,4 @@ public class BeerDto {
     private OffsetDateTime createdDate;
     private OffsetDateTime lastUpdatedDate;
 }
+
